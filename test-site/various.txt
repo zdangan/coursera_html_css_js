@@ -1,3 +1,5 @@
+HTML, CSS, JS:
+
 browser-sync start --server --directory --files "*"
 
 jsfiddle.net
@@ -5,3 +7,10 @@ jsfiddle.net
 codepen.io
 
 css-tricks.io
+
+
+
+
+
+SSH:
+open .git/config and make sure the url is SSH.
