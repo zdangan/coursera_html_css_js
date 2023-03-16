@@ -1,0 +1,25 @@
+HTML, CSS, JS:
+
+browser-sync start --server --directory --files "*"
+browser-sync start --server --directory --files "**.*" -- all subfolders as well
+
+jsfiddle.net
+
+codepen.io
+
+css-tricks.io
+
+
+
+
+
+SSH:
+open .git/config and make sure the url is SSH.
+
+step 1. ssh-keygen -t ed25519 -C "florianmilanovici@yahoo.com" - save the key to /Users/Florian/.ssh/id_ed25519.pub
+
+step2. copy the key from file above and create ssh in the Github account (cat /Users/Florian/.ssh/id_ed25519.pub)
+
+step3. eval "$(ssh-agent -s)"
+
+step4. ssh-add ~/.ssh/id_ed25519
